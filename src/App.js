@@ -37,6 +37,7 @@ function App() {
   const Admin = {
     getParams: () => {
       console.log(`Sending parameters to blockchain`);
+      // params is undefined here
       return params;
     },
     launched: (contract) => {
